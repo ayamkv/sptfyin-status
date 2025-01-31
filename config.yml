@@ -164,12 +164,13 @@ params:
     # - name: Backup Gateway
     #   category: North Coast
     - name: web
-      description: The web frontend for the application.
+      description: the web frontend for the application.
       category: uncategorized
       link: https://sptfy.in/
     - name: api & db
       description: the guts of the application.
       category: uncategorized
+      histogram: true
       link: https://pbbase.sptfy.in/api/health/
 
   # What date format to use?
@@ -275,7 +276,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: false
+  useLogo: true
 
   # Where is the logo located, if one is
   # present at all?
@@ -291,7 +292,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: we continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
 
   # Tabs on homepage
   # Uncomment to enable.
