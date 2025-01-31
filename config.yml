@@ -142,10 +142,11 @@ params:
   # 
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
-  # categories:
-  #   - name: North Coast
-  #     description: The main servers are located here.
-  #     closed: true
+  categories:
+    - name: uncategorized
+      description: uncategorized systems
+      closed: false
+      untitled: true
   #   - name: Empty Category
   #   - name: Uncategorized
   #     untitled: true
@@ -164,11 +165,11 @@ params:
     #   category: North Coast
     - name: web
       description: The web frontend for the application.
-      category: Uncategorized
+      category: uncategorized
       link: https://sptfy.in/
     - name: api & db
       description: the guts of the application.
-      category: Uncategorized
+      category: uncategorized
       link: https://pbbase.sptfy.in/api/health/
 
   # What date format to use?
@@ -332,10 +333,10 @@ params:
   # down: "#e60000"
   # notice: "#24478f"
   brand: "#0a0911"
-  ok: "#4ae3a1"
+  ok: "#4FAD84"
   disrupted: "#cc4400"
   down: "#e60000"
-  notice: "#24478f"
+  notice: "#418CB8"
 
   # If the status page shows that
   # there are disruptions or outages
